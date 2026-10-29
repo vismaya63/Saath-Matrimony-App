@@ -1,0 +1,26 @@
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+frontend/.env
+backend/.env
+
+# Python virtual environment and cache
+backend/.venv/
+backend/venv/
+__pycache__/
+*.py[cod]
+
+# Local databases and personal data
+*.db
+*.sqlite
+*.sqlite3
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
